@@ -1,0 +1,34 @@
+/* Estilo para a barra de navegação */
+.navbar {
+  background-color: black;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Estilo para os links no navbar */
+.navbar a {
+  text-decoration: none;   /* Remove o sublinhado */
+  color: white;            /* Altera a cor do texto para branco */
+  font-size: 18px;
+  font-weight: bold;
+  padding: 5px;
+  transition: color 0.3s;
+}
+
+/* Altera a cor do link quando ativo (clicado) */
+.navbar a.router-link-active {
+  color: #ff7f50;  /* Altera a cor quando a rota está ativa */
+}
+
+/* Remove o sublinhado quando o link estiver ativo */
+.navbar a.router-link-active {
+  text-decoration: none;  /* Certifica que o texto ativo não tem sublinhado */
+}
+
+/* Estilo para o hover (quando passa o mouse sobre o link) */
+.navbar a:hover {
+  color: #ff7f50;   /* Altera a cor para um tom laranja quando o mouse passa sobre o link */
+}
+
